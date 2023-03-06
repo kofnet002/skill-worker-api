@@ -126,3 +126,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'skillworkerapi.User'
+
+MEDIA_ROOT =  BASE_DIR / 'static/images'
+MEDIA_URL = '/images/'
